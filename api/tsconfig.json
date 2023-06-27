@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "classic",
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "ts-node": {
+    "files": true
+  },
+  "files": [
+    "src/types.d.ts"
+  ],
+}

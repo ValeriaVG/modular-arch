@@ -15,6 +15,7 @@ This repository contains example implementations of modular architecture for dif
 ## Examples
 
 - [React SPA / Dashboard](/dashboard/) 
+- [Express API](/api/)
 
 ## Running examples locally
 

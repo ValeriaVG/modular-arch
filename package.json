@@ -1,4 +1,4 @@
 {
     "name": "modular-architecture",
-    "workspaces":["dashboard"]
+    "workspaces":["dashboard","api"]
 }

@@ -17,7 +17,10 @@ const wrapWithLayout = (
 };
 
 const router = createBrowserRouter(
-  modules.reduce((a, c) => ([...a, ...wrapWithLayout(c.routes, c.wrapper)]),[] as RouteObject[])
+  modules.reduce(
+    (a, c) => [...a, ...wrapWithLayout(c.routes, c.wrapper)],
+    [] as RouteObject[]
+  )
 );
 
 export default function App() {
